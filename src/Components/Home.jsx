@@ -26,7 +26,7 @@ function Home() {
             {/* Call to Action Button */}
             <button
         onClick={() => navigate("/register-donor")}
-        className=" py-2 px-6 bg-black cursor-pointer text-white rounded-md font-black hover:bg-gray-200"
+        className=" py-2 px-6 bg-white cursor-pointer text-black rounded-md font-black hover:bg-gray-200"
       >
         Donate Now
       </button>
