@@ -27,7 +27,7 @@ function HospitalProfile() {
             {/* Hospital Image */}
             <div className="w-full md:w-1/3 bg-gradient-to-br from-gray-100 to-gray-200 h-64 rounded-lg overflow-hidden relative mb-6 md:mb-0">
               <img
-                src="/placeholder.svg?height=300&width=400"
+                src="/sample/src/assets/10130.jpg"
                 alt="Hospital Building"
                 className="w-full h-full object-cover"
               />
@@ -106,24 +106,21 @@ function HospitalProfile() {
 
             <div className="bg-gray-50 p-6 rounded-xl border border-gray-200">
               <div className="grid grid-cols-2 sm:grid-cols-4 gap-4">
-                <BloodTypeCard type="A+" units={12} color="bg-gradient-to-r from-red-600 to-red-500" />
-                <BloodTypeCard type="A-" units={8} color="bg-gradient-to-r from-red-500 to-red-400" />
-                <BloodTypeCard type="B+" units={15} color="bg-gradient-to-r from-blue-600 to-blue-500" />
-                <BloodTypeCard type="B-" units={5} color="bg-gradient-to-r from-blue-500 to-blue-400" />
-                <BloodTypeCard type="O+" units={20} color="bg-gradient-to-r from-green-600 to-green-500" />
-                <BloodTypeCard type="O-" units={7} color="bg-gradient-to-r from-green-500 to-green-400" />
-                <BloodTypeCard type="AB+" units={10} color="bg-gradient-to-r from-yellow-600 to-yellow-500" />
-                <BloodTypeCard type="AB-" units={4} color="bg-gradient-to-r from-yellow-500 to-yellow-400" />
+                <BloodTypeCard type="A+" units={12} color="bg-gradient-to-r from-red-900 to-red-800" />
+                <BloodTypeCard type="A-" units={8} color="bg-gradient-to-r from-red-800 to-red-700" />
+                <BloodTypeCard type="B+" units={15} color="bg-gradient-to-r from-red-700 to-red-600" />
+                <BloodTypeCard type="B-" units={5} color="bg-gradient-to-r from-red-600 to-red-500" />
+                <BloodTypeCard type="O+" units={20} color="bg-gradient-to-r from-red-500 to-red-400" />
+                <BloodTypeCard type="O-" units={7} color="bg-gradient-to-r from-red-400 to-red-300" />
+                <BloodTypeCard type="AB+" units={10} color="bg-gradient-to-r from-red-300 to-red-200" />
+                <BloodTypeCard type="AB-" units={4} color="bg-gradient-to-r from-red-200 to-red-100" />
               </div>
 
               <div className="mt-6 text-center">
                 <p className="text-sm text-gray-500 mb-2">Need blood urgently? Contact our emergency line</p>
                 <div className="flex justify-center gap-4 mt-4">
-                  <button className="bg-gradient-to-r from-red-600 to-red-700 text-white px-6 py-3 rounded-lg shadow-lg hover:from-red-700 hover:to-red-800 transition-all duration-300 flex items-center">
-                    <Calendar className="h-5 w-5 mr-2" />
-                    Schedule a Donation
-                  </button>
-                  <button className="bg-white text-red-600 border border-red-200 px-6 py-3 rounded-lg shadow-sm hover:bg-red-50 transition-all duration-300">
+                  
+                  <button className="bg-red-600 text-white border border-red-200 px-6 py-3 rounded-lg shadow-sm hover:bg-red-50 transition-all duration-300">
                     Request Blood
                   </button>
                 </div>

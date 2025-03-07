@@ -10,12 +10,12 @@ const collaborators = [
 function Home() {
   return (
     <>
-      <div className="font-['Poppins'] bg-white min-h-screen">
+      <div className="font-['Poppins'] bg-red-200 min-h-screen">
         <Navbar />
 
         {/* Hero Section */}
-        <section className="relative flex justify-center items-center text-center min-h-[60vh] p-12 overflow-hidden">
-          <div className="absolute top-0 left-0 w-full h-[60%] bg-gradient-to-br from-[#d81b60] to-[#4a0033] rounded-bl-[50%_20%] rounded-br-[50%_20%] z-[-1]"></div>
+        <section className="  relative flex justify-center items-center text-center min-h-[60vh] p-12 overflow-hidden">
+          <img src="/sample/src/assets/blood_net_bg.jpg" alt="" />
 
           <div className="max-w-[500px]">
             <h1 className="text-4xl font-bold">BloodNet</h1>
@@ -24,9 +24,12 @@ function Home() {
             </p>
 
             {/* Call to Action Button */}
-            <button className="bg-black text-white px-5 py-2.5 text-base font-bold border-none rounded hover:bg-gray-800 transition-colors">
-              Donate Now
-            </button>
+            <button
+        onClick={() => navigate("/register-donor")}
+        className=" py-2 px-6 bg-black cursor-pointer text-white rounded-md font-black hover:bg-gray-200"
+      >
+        Donate Now
+      </button>
           </div>
         </section>
 
