@@ -24,7 +24,7 @@ function Navbar() {
             <div className="flex space-x-6 text-gray-700">
                 <Link to="/" className="hover:text-red-500">Home</Link>
                 <Link to="/about-us" className="hover:text-red-500">About Us</Link>
-                <Link to="/profile" className="hover:text-red-500">Profile</Link>
+                <Link to="/profile" className="hover:text-red-500">Status</Link>
                 
             <select 
                 className="border-0 rounded-md  font-semibold bg-white flex items-center justify-between min-w-[180px] cursor-pointer focus:outline-none hover:bg-transparent"
