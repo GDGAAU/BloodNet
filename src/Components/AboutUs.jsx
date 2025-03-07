@@ -1,7 +1,10 @@
 import { Heart, Users, Calendar, Award, ArrowRight, Droplet } from "lucide-react"
+import Navbar from "./Navbar"
 
 export default function AboutUs() {
   return (
+    <>
+    <Navbar/>
     <div className="flex flex-col min-h-screen">
       {/* Hero Section */}
       <section className="w-full py-12 md:py-24 lg:py-32 bg-gradient-to-r from-purple-900 to-red-600 text-white">
@@ -304,6 +307,7 @@ export default function AboutUs() {
         </div>
       </section>
     </div>
+    </>
   )
 }
 

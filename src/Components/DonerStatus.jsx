@@ -56,7 +56,7 @@ export default function DonorStatus() {
   return (
    <>
    <Navbar/>
-    <div className="min-h-screen bg-gray-50 flex flex-col">
+    <div className="min-h-screen bg-gradient-to-r from-purple-900 to-red-600 flex flex-col">
           {/* Mobile menu button */}
           <button className="md:hidden inline-flex items-center justify-center rounded-md text-gray-700 hover:text-gray-900 hover:bg-gray-100 p-2">
             <svg
@@ -80,7 +80,7 @@ export default function DonorStatus() {
 
       <main className="container mx-auto px-4 py-8 flex-1">
         <div className="max-w-4xl mx-auto">
-          <h1 className="text-2xl font-bold text-gray-900 mb-6">Donor Status Dashboard</h1>
+          <h1 className="text-2xl font-bold text-white mb-6">Donor Status Dashboard</h1>
 
           {/* Status Selection Tabs */}
           <div className="mb-8">

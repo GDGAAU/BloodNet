@@ -10,7 +10,7 @@ const collaborators = [
 function Home() {
   return (
     <>
-      <div className="font-['Poppins'] bg-red-200 min-h-screen">
+      <div className="font-['Poppins'] bg-gradient-to-r from-purple-700 to-red-500 min-h-screen">
         <Navbar />
 
         {/* Hero Section */}
@@ -19,7 +19,7 @@ function Home() {
 
           <div className="max-w-[500px]">
             <h1 className="text-4xl font-bold">BloodNet</h1>
-            <p className="my-4 text-gray-600">
+            <p className="my-4 text-white">
               Saving lives by connecting blood donors to those in urgent need— anytime, anywhere.
             </p>
 
